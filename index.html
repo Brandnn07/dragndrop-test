@@ -1,27 +1,17 @@
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>File Drag and Drop test</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="css/style.css">
-    <script src="js/index.js" defer></script>
-</head>
-<body>
-    <b>THIS IS MERELY A TEST</b>
-    <main>
-        <section class="droparea">
-            <i class="far fa-images"></i>
-            <p>Drop your files right in here, either .png or .jpg</p>
-            <p><small><b>You can do up to 20 images with no max file size</b></small></p>
-        </section>
-        <section class="displayarea">
-            Test
-        </section>
-    </main>
-</body>
-<script>
+<!DOCTYPE html>
 
-</script>
-</html>
+<head>
+  <title>Drag and Drop File Upload</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+  <div class="drop-zone">
+    <span class="drop-zone__prompt">Drop file here or click to upload</span>
+    <input type="file" name="myFile" class="drop-zone__input">
+  </div>
+
+  <script src="./js/index.js"></script>
+</body>
